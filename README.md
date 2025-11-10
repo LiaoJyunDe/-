@@ -271,8 +271,8 @@ private:
     Node<T>* top; // header node，top->link 指向第一個元素
 
 public:
-    Stack() {
-        top = new Node<T>(int stackCapacity = 10); // header node
+    Stack(int stackCapacity = 10) {
+        top = new Node<T>(); // header node
         top->link = top;     // 指向自己，形成環狀結構
     }
 
