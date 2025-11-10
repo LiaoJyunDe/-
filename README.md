@@ -8,10 +8,7 @@ What are the merits of using *iterators* in a data structure? 【10%】
 在資料結構中使用「迭代器 (iterator)」有什麼優點？
 
 **Answer：**  
-- 可以不需要知道底層實作即可遍歷資料結構  
-- 提供統一的存取介面，提高程式的可讀性與可維護性  
-- 支援泛型與多種容器 (list, vector, map...) 的一致操作  
-- 方便與 STL algorithm 搭配使用（如 sort, find, etc.）
+迭代器提供了一種統一的方式歷遍資料結構的元素。
 
 ---
 **Original Question:**  
