@@ -93,11 +93,6 @@ ChainNode(const T& data, chainNode<T>* link){data=data;link=link;}
 
 **Original Question:**  
 請實作一般的 Linked list:應包含 IndexOf、Delete、Insert 等基本操作 【15%】
-```cpp
-ChainNode(){}
-ChainNode(const T& data)
-ChainNode(const T& data, chainNode<T>* link)
-```
 
 **Answer：**  
 ```cpp
